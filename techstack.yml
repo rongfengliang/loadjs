@@ -1,0 +1,148 @@
+repo_name: rongfengliang/loadjs
+report_id: 467fb35ddd2d04a69f4039ba4d97602d
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:01:47+00:00'
+requested_by: amorey
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/rongfengliang/loadjs
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rongfengliang/loadjs
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rongfengliang/loadjs
+  detection_source: Repo Metadata
+- name: JSHint
+  description: A Static Code Analysis Tool for JavaScript
+  website_url: http://www.jshint.com/about/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
+  detection_source_url: https://github.com/rongfengliang/loadjs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Andres Morey
+  last_updated_on: 2015-07-09 03:00:52.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/rongfengliang/loadjs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Andres Morey
+  last_updated_on: 2016-12-18 18:55:32.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rongfengliang/loadjs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Andres Morey
+  last_updated_on: 2015-07-09 03:00:52.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: https://github.com/rongfengliang/loadjs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Andres Morey
+  last_updated_on: 2015-07-09 03:00:52.000000000 Z
+- name: gulp-jshint
+  description: JSHint plugin for gulp
+  package_url: https://www.npmjs.com/gulp-jshint
+  version: 2.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16050/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/rongfengliang/loadjs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Andres Morey
+  last_updated_on: 2016-12-18 18:55:32.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/rongfengliang/loadjs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Andres Morey
+  last_updated_on: 2016-12-18 18:55:32.000000000 Z
+- name: gulp-uglify
+  description: Minify files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglify
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/rongfengliang/loadjs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Andres Morey
+  last_updated_on: 2016-12-18 18:55:32.000000000 Z
+- name: gulp-umd
+  description: Gulp plugin for build JavaScript files as Universal Module Definition
+  package_url: https://www.npmjs.com/gulp-umd
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18293/default_9ae2e40a3e32029f10bcda38c2cdc25f1a6acd23.png
+  detection_source_url: https://github.com/rongfengliang/loadjs/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Andres Morey
+  last_updated_on: 2016-12-18 18:55:32.000000000 Z
